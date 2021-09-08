@@ -1,0 +1,53 @@
+.content-curriculum {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 85vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #5B5B5D;
+}
+
+.first-column {
+  margin: 5vh 0 0 6.5vw;
+  width: 45%;
+}
+
+.presentation-curriculum p {
+  text-align: justify;
+}
+
+.formation-curriculum p, .experience-curriculum p, .habilities-curriculum p {
+  font-size: small;
+  padding-top: 1vh;
+  text-align: justify;
+}
+
+.formation-curriculum h4, .habilities-curriculum h4 {
+  padding: 2vh 0;
+}
+
+.experience-curriculum h4 {
+  padding-bottom: 2h;
+}
+
+.timing {
+  text-decoration: underline;
+}
+
+.second-column {
+  margin: 5vh 6.5vw 0 0;
+}
+
+.btn-download {
+  margin-top: 10vh;
+  height: 5vh;
+  width: 30vw;
+  border-radius: 10px;
+  border: none;
+  background-color: #E6CC21;
+  color: #fff;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+}
