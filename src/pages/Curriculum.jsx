@@ -102,7 +102,7 @@ function Curriculum() {
         <ul>
           <p className="timing">&gt; maio/2021 - atual</p>
           <h5>Coletivo Elas Codam</h5>
-          <p>Liderança do Time de Organização</p>
+          <p>Liderança do Time de Organização.</p>
         </ul>
       </>
     );
@@ -174,7 +174,13 @@ function Curriculum() {
         <span className="habilities-curriculum">
           { language === 'pt' ? textHabilitiesPT() : textHabilitiesEN() }
         </span>
-        <button type="button" className="btn-download">DOWNLOAD PDF</button>
+        <a
+          href="https://drive.google.com/file/d/16VHn2SKRGOIGCG6L3BeNzkAnASVgvkKL/view?usp=sharing" 
+          target="_blank"
+          rel="noreferrer"  
+        >
+          <button type="button" className="btn-download">DOWNLOAD PDF</button>
+        </a>
         </div>
       </section>
         <Footer />
