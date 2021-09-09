@@ -31,8 +31,8 @@ function Header() {
             PROJETOS
           </li>
         </Link>
-        <Link to="/Contact">
-          <li  className="link-text" style={{ textDecoration: 'none' }}>
+        <Link to="/Contact" style={{ textDecoration: 'none' }}>
+          <li  className="link-text">
             CONTATO
           </li>
         </Link>

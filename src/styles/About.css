@@ -1,0 +1,29 @@
+.content-about {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.infos-presentation {
+  flex-wrap: wrap;
+  margin: 5vh 0 0 5vw;
+  text-align: center;
+  font-weight: bolder;
+  color: #5B5B5D;
+}
+
+.img-profile {
+  width: 80%;
+  height: 64%;
+  margin-bottom: 5vh;
+}
+
+.text-about {
+  width: 45%;
+  margin: 5vh 9vw 0 0;
+  font-size: larger;
+  text-align: justify;
+  color: #5B5B5D;
+}
