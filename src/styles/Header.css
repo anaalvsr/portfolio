@@ -1,0 +1,20 @@
+.menu {
+  height: 7.5vh;
+  background-color: #8BEAF1;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.link-text {
+  color: #5B5B5D;
+  margin-top: 2.5vh;
+  font-weight: bold;
+}
+
+.link-text:hover {
+  color: #E643A3;
+}

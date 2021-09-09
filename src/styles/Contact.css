@@ -1,0 +1,32 @@
+.content-contact {
+  height: 77vh;
+  width: 100vw;
+  margin: 4vh 9vw;
+}
+
+.content-contact a, .content-contact p {
+  text-decoration: none;
+  display: block;
+  color: #5B5B5D;
+  margin-top: 1vh;
+}
+
+#email:before {
+  content: url(../images/emailicon.png);
+  margin-right: 1.5vw;
+}
+
+#whatsapp:before {
+  content: url(../images/appicon.png);
+  margin-right: 1.5vw;
+}
+
+#github:before {
+  content: url(../images/giticon.png);
+  margin-right: 1.5vw;
+}
+
+#linkedin:before {
+  content: url(../images/inicon.png);
+  margin-right: 1.5vw;
+}
