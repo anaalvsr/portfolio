@@ -34,7 +34,7 @@ function Jobs() {
           <div className="description">
             { Data.map(({ name }, index) => name === select ? <h2 key={ index }>{ name }</h2> : null) }
             { Data.map(({ name, descriptionPT, descriptionEN }, index) => (
-                name === select && language === 'Português' ? <p key={ index }>{ descriptionPT }</p> 
+                name === select && language === 'pt' ? <p key={ index }>{ descriptionPT }</p> 
                 : <p key={ index }>{ descriptionEN }</p>
             )) }
           </div>
