@@ -74,7 +74,9 @@ function Header() {
 
   return (
     <header className="menu">
-      { language === 'pt' ? textPT() : textEN() }
+      {
+        language === 'pt' ? textPT() : textEN()
+      }
     </header>
   )
 }
